@@ -40,6 +40,7 @@ class Ducks:
             duck.hideturtle()
 
     def all_normal(self):
+        self.deadDuck.hideturtle()
         self.deadDuck.shape("sources/duck.gif")
         self.ducksArray.append(self.deadDuck)
         self.deadDuck = self.ducksArray[0]
